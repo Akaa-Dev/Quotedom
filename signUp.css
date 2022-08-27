@@ -1,0 +1,93 @@
+.container{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  header{
+      background-color: #1f2937;
+      height: 8rem;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.nav-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 6rem;
+}
+.nav-list{
+    padding-right: 2rem;
+    padding-top: 7px;
+}
+a{
+    color: #f9faf8;
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+#logo{
+    font-size: 24px;
+}
+h1{
+    margin-left: 4rem;
+    color: #f9faf8;
+    font-size: 36px;
+    text-align: left;
+}
+form{
+    margin-top: 3rem;
+}
+input{
+    width: 650px;
+    height:40px;
+    border-radius: 15px;
+    margin-left: 7px;
+}
+#email{
+    margin-left: 3rem;
+}
+button{
+    
+    width: 550px;
+    height:40px;
+    border-radius: 15px;
+    margin-left:7rem;
+    background-color: rgb(141, 254, 250);
+    text-align: center;
+}
+label{
+    font-size: 20px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.form input,button{
+    margin-bottom: 2rem;
+}
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 36px;
+}
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 9rem;
+}
+html{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.label{
+   margin-right: 20px;
+}
