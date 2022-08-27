@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    src: url("./fonts/Roboto/") format('truetype');
+}
 .container{
     margin-left: 6rem;
     margin-right: 6rem;
@@ -56,11 +60,14 @@ button{
     height:40px;
     border-radius: 15px;
     margin-left:7rem;
-    background-color: rgb(141, 254, 250);
+    background-color: #56E39F;
     text-align: center;
+    font-weight: bold;
 }
 label{
     font-size: 20px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
 .form{
@@ -82,11 +89,12 @@ footer{
     text-align: center;
     padding-top: 2rem;
     margin-top: 9rem;
+    height: 3.5rem;
 }
 html{
-    height: 100%;
-    width: 100%;
-    display: table;
+    height: fit-content;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 .label{
    margin-right: 20px;
